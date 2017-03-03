@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<link href='https:\\fonts.google.com\specimen\Tangerine' rel='stylesheet' type='text\css'>
+<style>
+body {
+  font-family: Tangerine, sans-serif;
+  margin: 0 auto;
+  max-width: 800px;
+  background: #232323;
+  background-image: url("file:///C:/Users/Asus/Desktop/project/assets/Slider-2-2%20-%20Copy.jpg");
+  background-size: cover;
+
+}
+div {
+  height: 300px;
+  background-size: cover;
+  position: relative;
+  margin: 70px 0 0 0;
+  border-radius: 15px;
+}
+h1 {
+  font-family: 'Monotype Corsiva', cursive;
+  text-align: center;
+  font-size: 80px;
+  color: #aaaaaa;
+  margin: 70px 0 0 0;
+}
+h2 {
+  text-align: center;
+  color: #bbbbbb;
+  margin: 0px 0 70px 0;
+}
+p {
+  color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 28px;
+  transition: height .5;
+  -webkit-transition: height .5;
+  overflow: hidden;
+}
+.show-description small{
+  opacity: 1;
+}
+.show-description p {
+  height: 150px;
+}
+.first{
+background-image: url("file:///C:/Users/Asus/Desktop/project/assets/Slider-1-1.jpg")
+}
+.second{
+  background-image: url("file:///C:/Users/Asus/Desktop/project/assets/Slider-1-2%20-%20Copy.jpg");
+}
+.third{
+  background-image: url("file:///C:/Users/Asus/Desktop/project/assets/15624364_1836531816584000_3723725221018992640_n.jpg");
+}
+.price {
+  float: right;
+}
+</style>
+</head>
+<body>
+<h1> AQUA RESTAURANT </h1>
+<h2> LONDON</h2>
+<div class="first">
+  <p> PIZZA <span class="price">$14</span><br>
+  <small>Dry cured pancetta, marinated chilli & rosemary chicken, sweet calabrian peppers & red onion. Enjoy the awesome taste that you havent tasted before.</small></p>
+</div>
+
+<div class="second">
+  <p>CHICKEN <span class="price">$22</span><br>
+  <small>A choice of striploin of beef, slow roasted belly of pork or chicken. Come and enjoy the awesome great taste that you haven't tasted it before.</small></p>
+</div>
+
+<div class="third">
+  <p>SALAD <span class="price">$8</span><br>
+  <small>
+Herb crusted pollack on slow braised tomatoes, potatoes with olives & pesto
+Pancetta,fresh chilli & tomato ragout with linguine pasta
+Baked avocado with a sage & ricotta stuffing on wilted spinach.</small></p>
+</div>
+<script>
+$('div').on('click', function() {
+     $(this).toggleClass('show-description');
+ });
+</script>
+</body>
+</html>
