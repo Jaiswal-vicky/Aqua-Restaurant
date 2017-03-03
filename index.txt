@@ -10,7 +10,7 @@ body {
   margin: 0 auto;
   max-width: 800px;
   background: #232323;
-  background-image: url("file:///C:/Users/Asus/Desktop/project/assets/Slider-2-2%20-%20Copy.jpg");
+  background-image: url("/assets/Slider-2-2%20-%20Copy.jpg");
   background-size: cover;
 
 }
@@ -57,13 +57,13 @@ p {
   height: 150px;
 }
 .first{
-background-image: url("file:///C:/Users/Asus/Desktop/project/assets/Slider-1-1.jpg")
+background-image: url("/assets/Slider-1-1.jpg")
 }
 .second{
-  background-image: url("file:///C:/Users/Asus/Desktop/project/assets/Slider-1-2%20-%20Copy.jpg");
+  background-image: url("/assets/Slider-1-2%20-%20Copy.jpg");
 }
 .third{
-  background-image: url("file:///C:/Users/Asus/Desktop/project/assets/15624364_1836531816584000_3723725221018992640_n.jpg");
+  background-image: url("/assets/15624364_1836531816584000_3723725221018992640_n.jpg");
 }
 .price {
   float: right;
